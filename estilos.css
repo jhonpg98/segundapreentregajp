@@ -1,0 +1,35 @@
+:root{
+    --violet: #6f1053;
+    --green-dark: #13bc7e;
+    --light-grey: #f1f4f6;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul li{
+    list-style-type: none;
+}
+.container{
+    max-width: 1200px;
+}
+.display-1{
+    letter-spacing: 1px;
+}
+.bg-violet{
+    background-color: #6f1053!important;
+}
+.btn{
+    border: 2px solid #fff!important;
+    border-radius: 1.5rem!important;
+    padding: 0.6rem 0;
+    width: 160px;
+}
+
+.btn:hover{
+    color: #6f1053!important;
+    background: #fff;
+    border-color: var(--violet);
+}
