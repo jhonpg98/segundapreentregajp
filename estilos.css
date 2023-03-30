@@ -1,8 +1,4 @@
-:root{
-    --violet: #6f1053;
-    --green-dark: #13bc7e;
-    --light-grey: #f1f4f6;
-}
+
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -19,12 +15,68 @@ ul li{
     letter-spacing: 1px;
 }
 .bg-violet{
-    background-color: #6f1053!important;
+    background-color: #e9178e!important;
+}
+.bg-grey{
+    background-color: #f1f4f6!important;
+}
+.text-violet{
+    color: #e9178e!important;
 }
 .btn{
     border: 2px solid #fff!important;
-    border-radius: 1.5rem;
+    border-radius: 1.5rem!important;
     padding: 0.6rem 0;
     width: 160px;
+}
+.btn-violet{
+    background-color: #e9178e!important;
+    color: #fff!important;
+    padding: 0.55rem 0;
+    width: 140px;
+}
+.btn-violet:hover{
+    color: white!important;
+    background: #fff;
+    border-color: #e9178e!important;
+}
+.lh-lg{
+    line-height: 1.7!important;
+}
+.circle-icon{
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #e9178e!important;
+}
+
+header{
+    height: 100vh;
+}
+.navbar-brand .fa{
+    font-size: 1.3rem;
+}
+.nav-icons p{
+    font-size: 1rem;
+    margin-right: 0.6rem;
+}
+.nav-icons{
+    font-size: 1.2rem;
+}
+.btn-header:hover{
+    background-color: #fff;
+    color: #e9178e!important;
+}
+.bailarin-img img{
+    width: 500px;
+}
+
+
+#sec-6{
+    background-color: #e9178e!important;
+}
+#sec-6 .circle-icon{
+    width: 95px;
+    height: 95px;
 }
 
